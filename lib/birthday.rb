@@ -12,8 +12,7 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
-  age <= 12
-  birthday_kids.map do |kids_name, age|
+    birthday_kids.map do |kids_name, age|
     while age <= 12
       puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
